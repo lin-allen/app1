@@ -1,21 +1,11 @@
 #!/bin/sh
 # ----------------------------------------------------------------------------
-# Licensed to the Apache Software Foundation (ASF) under one
-# or more contributor license agreements.  See the NOTICE file
-# distributed with this work for additional information
-# regarding copyright ownership.  The ASF licenses this file
-# to you under the Apache License, Version 2.0 (the
-# "License"); you may not use this file except in compliance
-# with the License.  You may obtain a copy of the License at
-#
-#    http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing,
-# software distributed under the License is distributed on an
-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-# KIND, either express or implied.  See the License for the
-# specific language governing permissions and limitations
-# under the License.
+# 根据一个或多个contributor许可协议授权给Apache Software Foundation (ASF)。
+# 有关版权拥有权的更多信息，请参阅随本著作分发的通知文件。
+# ASF根据Apache许可证2.0版(“许可证”)将此文件授权给您;除非符合许可协议，否则您不能使用此文件。
+# 您可以通过http://www.apache.org/licenses/LICENSE-2.0获取许可的副本，
+# 除非适用法律要求或书面同意，在许可下发布的软件是基于“原样”发布的，没有任何明示或暗示的保证或条件。
+# 有关许可证官方法律限制，请参阅许可证。
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------

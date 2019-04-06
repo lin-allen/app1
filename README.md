@@ -101,7 +101,7 @@ import 'leaflet/dist/leaflet.js';
 
 有关详细信息，请参考[Using JHipster in production][]。
 
-## 后端单元测试
+## 单元测试
 
 要启动应用程序单元测试，请运行:
 
@@ -157,7 +157,6 @@ docker-compose -f src/main/docker/sonar.yml up -d
 ## 持续集成(可选)
 
 要为您的项目配置CI，请运行ci-cd子生成器 (`jhipster ci-cd`)，这将为您为生成一些持续集成系统配置文件。有关更多信息，请参考 [Setting up Continuous Integration][]页。
-To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`), this will let you generate configuration files for a number of Continuous Integration systems. Consult the [Setting up Continuous Integration][] page for more information.
 
 [jhipster homepage and latest documentation]: https://www.jhipster.tech
 [jhipster 5.8.2 archive]: https://www.jhipster.tech/documentation-archive/v5.8.2

@@ -16,8 +16,15 @@ const ENV = 'development';
 
 module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
     devtool: 'eval-source-map',
+    /*
+      devServer 配置详解
+        contentBase 为文件提供本地服务器
+        port 监听端口，默认8080
+        inline 设置为true,源文件发生改变自动刷新页面
+        historyApiFallback 依赖HTML5 history API,如果设置为true,所有的页面跳转指向index.html
+     */
     devServer: {
-        contentBase: './target/www',
+        contentBase: './target/www',// 本地服务器所加载的页面所在的目录
         proxy: [{
             context: [
                 /* jhipster-needle-add-entity-to-webpack - JHipster will add entity api paths here */

@@ -1,16 +1,16 @@
-# EditorConfig helps developers define and maintain consistent
-# coding styles between different editors and IDEs
+#EditorConfig帮助开发人员定义和维护一致性
+#不同编辑器和ide之间的编码风格
 # editorconfig.org
 
 root = true
 
 [*]
 
-# Change these settings to your own preference
+#将这些设置更改为您自己的首选项
 indent_style = space
 indent_size = 4
 
-# We recommend you to keep these unchanged
+#我们建议您保持这些不变
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true

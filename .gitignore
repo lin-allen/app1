@@ -42,7 +42,7 @@ local.properties
 # External tool builders
 .externalToolBuilders/**
 
-# Locally stored "Eclipse launch configurations"
+# 本地存储的“Eclipse启动配置”
 *.launch
 
 # CDT-specific
@@ -91,7 +91,7 @@ out/
 ######################
 # Windows
 ######################
-# Windows image file caches
+# Windows图像文件缓存
 Thumbs.db
 
 # Folder config file

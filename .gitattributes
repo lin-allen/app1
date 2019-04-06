@@ -1,11 +1,11 @@
 # This file is inspired by https://github.com/alexkaratarakis/gitattributes
 #
-# Auto detect text files and perform LF normalization
+# 自动检测文本文件并执行LF规范化
 # http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
 * text=auto
 
 # The above will handle all files NOT found below
-# These files are text and should be normalized (Convert crlf => lf)
+# 这些文件是文本，应该进行规范化(转换crlf => lf)
 
 *.bat           text eol=crlf
 *.coffee        text
@@ -72,13 +72,13 @@ TODO            text
 *.tif           binary
 *.tiff          binary
 *.ico           binary
-# SVG treated as an asset (binary) by default. If you want to treat it as text,
-# comment-out the following line and uncomment the line after.
+# 默认情况下，SVG被视二进制文件。如果你想把它当作文本，
+# 注释下面的行，然后取消注释后面的行。
 *.svg           binary
 #*.svg          text
 *.eps           binary
 
-# These files are binary and should be left untouched
+# 这些文件是二进制的，应该保持原样
 # (binary is a macro for -text -diff)
 *.class         binary
 *.jar           binary

@@ -152,7 +152,7 @@ docker-compose -f src/main/docker/sonar.yml up -d
 
     docker-compose -f src/main/docker/app.yml up -d
 
-有关更多信息，请参考 [Using Docker and Docker-Compose][]，此页面还包含关于docker-compose子生成器(`jhipster docker-compose`)的信息，该生成器能够为一个或多个jhipster应用程序生成Docker配置。
+有关更多信息，请参考 [Using Docker and Docker-Compose][] ，此页面还包含关于docker-compose子生成器(`jhipster docker-compose`)的信息，该生成器能够为一个或多个jhipster应用程序生成Docker配置。
 
 ## 持续集成(可选)
 

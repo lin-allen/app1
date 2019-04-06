@@ -1,4 +1,4 @@
-# app1
+# jhipster-app1
 
 这个应用程序是使用JHipster 5.8.2生成的，您可以在[https://www.jhipster.tech/document-archive/v5.8.2](https://www.jhipster.tech/document-archive/v5.8.2)上找到文档和帮助。
 
